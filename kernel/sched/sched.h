@@ -582,7 +582,7 @@ struct rq {
 	/* runqueue lock: */
 	raw_spinlock_t lock;
 
-	/* it is for figuring out the ordering of tasks insert into the cfs_rq */
+	/* aghax it is for figuring out the ordering of tasks insert into the cfs_rq */
 	int rq_rank;
 
 	/*
